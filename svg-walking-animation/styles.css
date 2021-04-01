@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+}
+
+#tree-1{
+    box-sizing: border-box;
+  
+    animation: background 13s infinite linear ;
+    animation-delay: 0.5s;
+    }
+ #tree-2{
+    animation: background 10s infinite linear ;
+    animation-delay: 0.5s;
+    }
+  
+#tree-3{
+        animation: background 7s infinite linear ;
+        animation-delay: 0.5s;
+        }
+  
+#grass-1{
+    animation: background 15s infinite linear ;
+    animation-delay: 2s;
+        }
+    
+  
+ #grass-2{
+    animation: background 14s infinite linear ;
+    animation-delay: 2s;
+}
+  
+#grass-3{
+    
+animation: background 13s infinite linear ;
+animation-delay: 2s;
+ }
+                     
+
+#grass-1{
+
+}
+
+
+@keyframes background {
+    from{
+        transform: translateX(-100%);
+    }to{
+        transform: translateX(100%);
+    }
+} 
+
+
+
+        
